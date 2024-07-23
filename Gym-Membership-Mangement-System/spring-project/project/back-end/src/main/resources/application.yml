@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: mysql123
+    url: jdbc:mysql://localhost:3306/gym_member_crm
+  jpa:
+     hibernate:
+       ddl-auto: update
